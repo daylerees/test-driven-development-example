@@ -1,0 +1,8 @@
+*~
+pearfarm.spec
+*.sublime-project
+library/Hamcrest/*
+composer.lock
+vendor/
+composer.phar
+test.php

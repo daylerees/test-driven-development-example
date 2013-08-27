@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "3.7.21",
+        "mockery/mockery": "0.8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example": "src"
+        }
+    }
+}
