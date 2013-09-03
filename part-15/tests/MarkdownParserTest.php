@@ -28,7 +28,7 @@ class MarkdownParserTest extends PHPUnit_Framework_TestCase
     /**
      * With the functionality complete, now our test passes
      * and is in the GREEN state. All that's left to do is
-     * to die these methods together so that they perform
+     * to tie these methods together so that they perform
      * complete(ish) markdown parsing.
      *
      * Switch to part 16.

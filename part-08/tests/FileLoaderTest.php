@@ -19,8 +19,8 @@ class FileLoaderTest extends PHPUnit_Framework_TestCase
     /**
      * Now the PHP API suggests that the file_get_contents()
      * method returns false on failure, but I found that it
-     * triggered an error. Instead I checked for the existance
-     * of the the file before loading it.
+     * triggered an error. Instead I checked for the existence
+     * of the file before loading it.
      *
      * By returning false when the file doesn't exist our
      * test now passes. Can we finally move on to new

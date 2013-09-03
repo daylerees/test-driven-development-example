@@ -17,7 +17,7 @@ class FileLoaderTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * Our test functions wihtin the ideal scenario, but the
+     * Our test functions within the ideal scenario, but the
      * world isn't always so perfect. What happens when we
      * hand the 'get()' method a file that doesn't exist on
      * disk? We should test for this too.

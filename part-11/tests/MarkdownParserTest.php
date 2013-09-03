@@ -12,7 +12,7 @@ class MarkdownParserTest extends PHPUnit_Framework_TestCase
     /**
      * We have written a regular expression replacement to
      * replace **double-stared** text with
-     * <strong>tags</strong> so now our test will parse.
+     * <strong>tags</strong> so now our test will pass.
      *
      * I can't think of a way to refactor this right now,
      * maybe we are just TOO good? ;)
