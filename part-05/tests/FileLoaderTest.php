@@ -22,13 +22,13 @@ class FileLoaderTest extends PHPUnit_Framework_TestCase
      * and easier to manage when you first define how you
      * want to use the code, before writing the functionality.
      *
-     * Not that we are refering to a fixture file, this will
+     * Now that we are referring to a fixture file, this will
      * be a dummy file within our tests directory that we
      * can attempt to load to ensure that our code functions
      * as expected. My editor adds a newline to the end of
      * a file so I've added a newline to the expected result.
      *
-     * Swap over to part six when you'r ready to implement
+     * Swap over to part six when you're ready to implement
      * this functionality.
      */
     public function testFileLoaderCanLoadFileContent()
