@@ -29,7 +29,7 @@ class MarkdownParserTest extends PHPUnit_Framework_TestCase
     {
         $m = new MarkdownParser;
         $e = 'foo[bar](baz)boo';
-        $r = $m->parseBold($e);
+        $r = $m->parseLinks($e);
         $this->assertEquals('foo<a href="bar">baz</a>boo', $r);
     }
 }
