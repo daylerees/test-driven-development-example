@@ -27,4 +27,12 @@ class MarkdownParserTest extends PHPUnit_Framework_TestCase
         $r = $m->parseBold($e);
         $this->assertEquals('foo<strong>bar</strong>baz', $r);
     }
+
+    public function testDoubleBoldTextCanBeParsed()
+    {
+        $m = new MarkdownParser;
+        $e = 'foo**bar**baz**boo**';
+        $r = $m->parseBold($e);
+        $this->assertEquals('foo<strong>bar</strong>baz<strong>boo</strong>', $r);
+    }
 }
