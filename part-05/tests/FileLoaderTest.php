@@ -35,6 +35,6 @@ class FileLoaderTest extends PHPUnit_Framework_TestCase
     {
         $f = new FileLoader;
         $r = $f->get(__DIR__.'/fixtures/simple.md');
-        $this->assertEquals("Foo\n", $r);
+        $this->assertEquals("Foo" . PHP_EOL, $r);
     }
 }
